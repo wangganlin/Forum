@@ -1,0 +1,39 @@
+.register{
+	width: 80%;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 100px;
+}
+.register td{
+	padding: 15px;
+}
+.register span{
+	color: #F00;
+}
+.register tr{
+	margin-top: 15px;
+}
+.register input{
+	border:1px solid rgb(228,230,235);
+}
+.register input:hover{
+	border:1px solid rgb(42,181,255);
+}
+.register label{
+	margin-left: 15px;
+	color: rgb(116,116,116);
+}
+.register .td_left{
+	width: 20%;
+	height: 30px;
+	text-align: right;
+}
+.td_text {
+	width:240px;
+	height: 40px;
+	border-radius: 5px;
+	padding-left: 10px;
+}
+label{
+	cursor: pointer;
+}

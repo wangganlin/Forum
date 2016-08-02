@@ -1,0 +1,33 @@
+.register{
+	width: 80%;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 100px;
+}
+.register td{
+	padding: 10px;
+}
+.register span{
+	color: #F00;
+}
+.register tr{
+	margin-top: 15px;
+}
+.register label{
+	margin-left: 15px;
+	color: rgb(116,116,116);
+}
+.register .td_left{
+	width: 20%;
+	height: 30px;
+	text-align: right;
+}
+.td_text {
+	width:240px;
+	height: 40px;
+	border-radius: 10px;
+	padding-left: 10px;
+}
+label{
+	color: rgb(116,116,116);
+}

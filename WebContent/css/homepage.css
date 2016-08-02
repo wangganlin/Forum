@@ -1,0 +1,146 @@
+
+
+
+
+.daohang li{
+	float: left;
+	display:inline-block;
+	border-bottom: 1px solid  gainsboro;
+	border-right: 1px solid  gainsboro;
+	width: 80px;
+	height: 30px;
+	padding-left: 5px;
+	
+}
+
+.smalltitle{
+	width: 100%;
+	height: 30px;
+	background: -moz-linear-gradient(top,rgb(237,238,242),rgb(234,238,241));
+	text-align: center;
+	line-height: 30px;
+	border-bottom: 1px solid  gainsboro;
+
+}
+.daohang2,.daohang3{
+	width: 100%;
+	font-size:14px;
+	color:#4c4c4c;
+}
+.daohang2 table{
+	border-collapse:collapse;	
+}
+.daohang2 table tr{
+	border-bottom:1px dashed rgb(228,230,235);
+	vertical-align:middle;
+}
+.daohang2 table tr:hover{
+	background-color:rgb(247,249,252);
+}
+.daohang2 table span{
+	display:block;
+	width:19px;
+	height:17px;
+	background-color:rgb(247,77,74);
+	float: left;
+	color:#ffffff;
+	text-align: center;
+	line-height: 15px;
+	border-radius: 3px;
+	margin-left:10px;
+}
+.daohang2 a{
+	color:#2D64B3;
+}
+.daohang2 a:hover{
+	text-decoration:underline;
+}
+
+.daohang3 table{
+	border-collapse:collapse;
+}
+.daohang3 table tr{
+	border-bottom:1px dashed rgb(228,230,235);
+	vertical-align:middle;
+}
+.daohang3 table tr:hover{
+	background-color:rgb(247,249,252);
+}
+.daohang3 a{
+	color:#2D64B3;
+}
+.daohang3 a:hover{
+	text-decoration:underline;
+}
+
+/* .daohang3 table span{
+	display:block;
+	width:29px;
+	height:17px;
+	background-color:rgb(255,204,38);
+	float: left;
+	color:#ffffff;
+	text-align: center;
+	line-height: 15px;
+	border-radius: 3px;
+	margin-left:10px;
+} */
+.cs,.java,.js,.cpp{
+	width: 49%;
+	height: 80px;
+	
+	
+}
+.cs,.cpp{
+	border-bottom:1px dashed rgb(228,230,235);
+}
+.cs,.java{
+	float: left;
+	
+	
+}
+
+.cpp,.js{
+	float: right;
+	
+}
+
+
+.fenlei img{
+	margin-top: 10px;
+	/* vertical-align: middle; */
+}
+.fenlei span{
+	margin-left: 20px;
+}
+
+
+
+.search_info{
+	width:220px;
+	height: 40px;
+	float: right;
+	margin-right: 50px;
+	margin-top: 25px;
+	border-right:1px solid rgb(204,204,204);
+}
+#serach{
+	width: 160px;
+	height: 28px;
+	float:right;
+	margin-top: 5px;
+	margin-right: -1px;
+}
+#serach:hover{
+	width:220px;
+	
+}
+#serach{
+	-moz-transition: all 0.25s ease;
+}
+ .paihang table{
+	font-size: 14px;
+	color: #333;
+	font-family: "Microsoft Yahei";
+	
+}

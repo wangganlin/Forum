@@ -1,0 +1,116 @@
+
+
+.center_down{
+	width: 100%;
+	height: 560px;
+	float: left;
+}
+
+.pic{
+	width: 100%;
+	height: 170px;
+	border-top: 1px solid rgb(228,230,235);
+	float: left;
+	background: -moz-linear-gradient(top,rgb(244,246,249),rgb(242,244,247));
+}
+
+.data{
+	width: 100%;
+	margin-top: 15px;
+	border-collapse:collapse;
+	
+
+}
+.data a{
+	color:#2d64b3;
+}
+.data tr{
+	height: 40px;
+	border-bottom: 1px solid rgb(228,230,235);
+}
+/* .data th{
+	height: 30px;
+} */
+
+.info{
+	display: none;
+	position: absolute;
+	z-index: 1000;
+	opacity: 0.9;
+	background-color: #fff;
+	border-radius: 10px;
+}
+
+.info table{
+	margin-top: 20px;
+	width: 450px;
+	height:260px;
+
+
+}
+
+.info input{
+	width: 200px;
+	height: 40px;
+	border-radius: 10px;
+	border:1px solid rgb(54,188,255);
+	
+}
+.backdiv{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	opacity: 0.3;
+	display: none;
+}
+.dengluDiv{
+	position:fixed;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	background-color: #000;
+	opacity:0.3;
+	display: none;
+}
+.loginDiv{
+	position:fixed;
+	top:150px;
+	left:32%;
+	width: 500px;
+	height:300px;
+	background-color: #fff;
+	display: none;
+}
+.loginDiv input{
+	border:1px solid rgb(54,188,255);
+}
+.info button{
+	width: 100px; 
+	height: 30px; 
+	border: none; 
+	cursor: pointer; 
+	background-color: rgb(63, 137, 236); 
+	font-size: 16px; 
+	color: #fff;
+	/* margin-top:20px; */
+	margin-left:30px;
+	border-radius: 5px;
+}
+/* #tishi{
+	display: none;
+	width: 8em;
+	height: 3em;
+	border:1px solid rgb(206,61,58);
+	box-shadow: 0 .05em .5em rgba(255,0,0,.5);
+	margin-top:10px;
+	margin-left: 550px;
+	border-radius: 8px;
+	text-align: center;
+	color: rgb(206,61,58);
+	line-height: 3em;
+	z-index:2000;
+} */

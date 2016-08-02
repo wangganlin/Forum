@@ -1,0 +1,212 @@
+.center_content{
+	width: 100%;
+	height: 950px;
+	border-top: 1px solid rgb(228,230,235);
+	margin: 0 auto;
+	margin-top: 40px;
+}
+
+.tupian{
+	width: 100%;
+	height: 90px;
+	/* border: 1px solid greenyellow; */
+	margin: 0 auto;
+	background:-moz-linear-gradient(top,rgb(244,246,249),rgb(242,244,247));
+	/*margin-top: 10px;*/
+}
+
+.kantie{
+	width: 100%;
+	height: 45px;
+	background-color: rgb(235,238,241);
+	/*float: left;*/
+	margin: 0 auto;
+	
+}
+
+.kantie li{
+	display: inline-block;
+	width: 75px;
+	height: 45px;
+	text-align: center;
+	line-height: 45px;
+	border-right: 1px solid lightgray;
+	
+}
+
+.kantie li:hover{
+	background-color: rgb(227,229,232);
+	cursor: pointer;
+}
+
+.searchtie{
+	float: right;
+	width: 250px;
+	height: 45px;
+	margin-top: -45px;
+	
+}
+
+.searchtie input{
+	width: 200px;
+	height: 30px;
+	border-radius: 10px;
+	border: 1px solid lightgrey;
+	margin-top: 5px;
+}
+
+.tiecontent{
+	width: 100%;
+	height: 400px;
+	margin: 0 auto;
+/* 	border: 1px solid lightgrey; */
+}
+
+.tiecontent table{
+	width: 100%;
+	border-collapse:collapse;	
+	
+}
+
+.tiecontent table tr{
+	height: 40px;
+	border-bottom:1px solid rgb(228,230,235);
+}
+
+.tiecontent table tr:hover{
+	background-color:rgb(247,249,252);
+}
+.tiecontent a:hover{
+	text-decoration:underline;
+}
+.figure{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background-image: url(../img/figure.png);
+	background-repeat: no-repeat;
+	background-position: -30px -60px;
+	vertical-align: middle;
+	
+	
+}
+
+.fabiao{
+	width: 100%;
+	height: 390px;
+	margin: 0 auto;
+	background:-moz-linear-gradient(top,rgb(243,243,243),rgb(249,249,249));
+	margin-top: 25px;
+}
+.fatieimg{
+	width: 150px;
+	height: 30px;
+	/*border: 1px solid lightgrey;*/
+	margin-left: 160px;
+	padding-top: 10px;
+	
+	
+}
+.tie_title{
+	margin-top:15px;
+}
+
+.tie_title input{
+	width: 528px;
+	height: 25px;
+	border: 1px solid lightgrey;
+	
+	
+}
+
+.tie_content{
+	width: 95%;
+	height: 190px;
+	margin-top: 25px;
+	margin-left: 2%;
+	border: 1px solid rgb(204, 204, 204);
+	background-color: #fff;
+	color:rgb(153,153,153);
+}
+
+
+.fabiao button{
+	width: 80px;
+	height: 30px;
+	background-color: rgb(42,125,250);
+	color: #FFFFFF;
+	border: rgb(42,125,250);
+	margin-left: 160px;
+	margin-top: 20px;
+}
+.dengluDiv{
+	position:fixed;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	background-color: #000;
+	opacity:0.3;
+	display: none;
+}
+.loginDiv{
+	position:fixed;
+	top:150px;
+	left:32%;
+	width: 500px;
+	height:300px;
+	background-color: #fff;
+	display: none;
+}
+
+/* .side_bar{
+	position: fixed;
+	left: 60%;
+	bottom: 200px;
+	margin-left: 380px;
+	z-index: 1005;
+	border: 1px solid red;
+	width: 45px;
+	height: 100px;
+}
+
+.side_bar .side_bar_fatie img{
+	position: absolute;
+	clip: rect(106px 275px 159px 220px);
+	margin-left: -220px;
+	margin-top: -111px;
+	
+	
+}
+
+.side_bar .side_bar_top img{
+	visibility: hidden;
+	position: absolute;
+	clip: rect(0px 45px 45px 0px);
+}
+
+.side_bar li{
+	display: inline-block;
+	border: 1px solid blue;
+	width: 45px;
+	height: 45px;
+}
+
+.side_bar .side_bar_top img:hover{
+	
+	position: absolute;
+	clip: rect(106px 212px 159px 159px);
+	margin-left: -165px;
+	margin-top: -106px;
+	cursor: pointer;
+	
+}
+
+.side_bar .side_bar_fatie img:hover{
+	position: absolute;
+	clip: rect(159px 267px 210px 210px);
+	margin-left: -220px;
+	margin-top: -168px;
+	cursor: pointer;
+}
+ */
